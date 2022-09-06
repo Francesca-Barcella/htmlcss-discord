@@ -108,13 +108,15 @@ h1 {
     width: 80%;
 }
 
-.row.menu a{
+.row.menu a {
     color: white;
     font-size: 15px;
     font-weight: bold;
 }
 
-
+.row.menu a:hover {
+    text-decoration: underline;
+}
 
 .col-2.login {
     text-align: right;
@@ -161,19 +163,27 @@ h1 {
     padding: 15px 30px;
 }
 
-#button_download:hover,
-#button_open:hover {
+#button_download>a:hover,
+#button_open>a:hover {
     color: var(--bg-blue-discord);
 }
 
-#button_download{
+#button_download {
     background-color: white;
 }
 
-#button_open{
+#button_open {
     background-color: black;
+}
+
+#button_download>a {
+    color: black;
+}
+
+#button_open>a {
     color: white;
 }
+
 
 .invito,
 .facile,
