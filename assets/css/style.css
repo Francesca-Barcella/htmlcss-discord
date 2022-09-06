@@ -15,6 +15,10 @@ h1 {
     font-weight: bold;
 }
 
+img{
+    max-width: 100%;
+}
+
 /* #endregion common */
 
 /* #region utilities*/
@@ -142,7 +146,7 @@ h1 {
 
 /* #endregion header */
 
-/* #region banner */
+/* #region main - banner */
 .banner {
     height: 500px;
     padding-top: 50px;
@@ -187,9 +191,9 @@ h1 {
 #button_open>a {
     color: white;
 }
-/* #endregion banner */
+/* #endregion main - banner */
 
-/* #region main */
+/* #region main - invito,facile,fandom */
 .invito,
 .facile,
 .fandom {
@@ -205,33 +209,24 @@ h1 {
     padding: 30px 15px;
 }
 
-h3.bg_white{
+h3{
     color: black;
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-p.bg_white{
+p{
     color: black;
     font-size: 25px;
     margin-bottom: 30px;
 }
 
-.bg_study_group {
-    background-image: url(../img/item1.svg);
-}
-
-.bg_facile{
-    background-image: url(../img/item2.svg);
-}
-
-.bg_fandom{
-    background-image: url(../img/item3.svg);
-}
-
 .facile {
     background-color: var(--bg-grey);
 }
+
+/* #endregion main - invito,facile, fandom */
+
 
 .chiusura {
     height: 1000px;
@@ -246,7 +241,6 @@ p.bg_white{
     border: 1px dashed black;
 }
 
-/* #endregion main */
 
 
 
