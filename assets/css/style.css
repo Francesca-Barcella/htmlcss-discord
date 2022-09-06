@@ -193,7 +193,6 @@ h1 {
 .invito,
 .facile,
 .fandom {
-    height: 600px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -218,14 +217,17 @@ p.bg_white{
     margin-bottom: 30px;
 }
 
-.study_group {
+.bg_study_group {
     background-image: url(../img/item1.svg);
 }
 
-.easy{
+.bg_facile{
     background-image: url(../img/item2.svg);
 }
 
+.bg_fandom{
+    background-image: url(../img/item3.svg);
+}
 
 .facile {
     background-color: var(--bg-grey);
