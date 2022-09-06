@@ -241,7 +241,8 @@ img {
 }
 
 .facile {
-    background-color: var(--bg-grey);
+    background-image: url(../img/wave.svg);
+    color: white;
 }
 
 .chiusura {
