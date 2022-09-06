@@ -15,7 +15,7 @@ h1 {
     font-weight: bold;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
@@ -35,6 +35,7 @@ img{
     --bg-footer-bottom: #7FFFD4;
     --bg-footer-log: #FFB6C1;
     --bg-blue-discord: #255EE9;
+    --bg-blue-discord-light: #7289DA;
 }
 
 .container_100 {
@@ -90,6 +91,62 @@ img{
 
 /* #endregion col- */
 
+/* #region button */
+.button_login {
+    background-color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+}
+
+.button_login:hover {
+    color: var(--bg-blue-discord);
+    box-shadow: 5px 5px 80px blue;
+}
+
+#button_download,
+#button_open,
+#button_download_mac {
+    border-radius: 30px;
+    border: none;
+    margin: 30px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+#button_download>a:hover,
+#button_open>a:hover {
+    color: var(--bg-blue-discord);
+}
+
+#button_download {
+    background-color: white;
+}
+
+#button_download_mac {
+    background-color: var(--bg-blue-discord-light);
+}
+#button_open {
+    background-color: black;
+}
+
+
+#button_download_mac>a{
+    color: white;
+}
+
+#button_download>a {
+    color: black;
+}
+
+#button_open>a {
+    color: white;
+}
+
+/* #endregion button */
+
 /* #region header */
 .header {
     background-color: var(--bg-blue-discord);
@@ -131,24 +188,11 @@ img{
     padding-right: 10px;
 }
 
-.button_login {
-    background-color: white;
-    padding: 5px 15px;
-    font-weight: bold;
-    border-radius: 30px;
-    border: none;
-}
-
-.button_login:hover {
-    color: var(--bg-blue-discord);
-    box-shadow: 5px 5px 80px blue;
-}
-
 /* #endregion header */
 
 /* #region main - banner */
 .banner {
-    height: 500px;
+    height: 600px;
     padding-top: 50px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
@@ -161,36 +205,7 @@ img{
     color: white;
 }
 
-#button_download,
-#button_open {
-    border-radius: 30px;
-    border: none;
-    margin: 30px 15px;
-    font-size: 20px;
-    font-weight: 600;
-    padding: 15px 30px;
-}
 
-#button_download>a:hover,
-#button_open>a:hover {
-    color: var(--bg-blue-discord);
-}
-
-#button_download {
-    background-color: white;
-}
-
-#button_open {
-    background-color: black;
-}
-
-#button_download>a {
-    color: black;
-}
-
-#button_open>a {
-    color: white;
-}
 /* #endregion main - banner */
 
 /* #region main - invito,facile,fandom */
@@ -201,7 +216,7 @@ img{
     padding-bottom: 50px;
 }
 
-.col-8.column_max{
+.col-8.column_max {
     background-size: cover;
 }
 
@@ -209,13 +224,13 @@ img{
     padding: 30px 15px;
 }
 
-h3{
+h3 {
     color: black;
     font-size: 40px;
     margin-bottom: 30px;
 }
 
-p{
+p {
     color: black;
     font-size: 25px;
     margin-bottom: 30px;
@@ -233,6 +248,7 @@ p{
     background-color: var(--bg-grey);
     padding-top: 50px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .chiusura_main {
