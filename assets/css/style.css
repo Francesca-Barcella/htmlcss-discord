@@ -101,7 +101,8 @@ img {
 
 #button_download,
 #button_open,
-#button_download_mac {
+#button_download_mac,
+{
     border-radius: 30px;
     border: none;
     margin: 30px 15px;
@@ -126,9 +127,9 @@ img {
     background-color: black;
 }
 
-
 #button_download_mac>a{
     color: white;
+    
 }
 
 #button_download>a {
@@ -139,6 +140,21 @@ img {
     color: white;
 }
 
+#sign_button{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: var(--bg-blue-discord);
+    color: white;
+    border:none;
+}
+
+#sign_button:hover{
+    background-color: var(--bg-blue-discord-light);
+}
 /* #endregion button */
 
 /* #region header */
@@ -253,7 +269,6 @@ p {
 }
 
 .row.footer_top {
-    height: 630px;
     background-color: var(--bg-footer);
     padding-top: 5px;
     padding-bottom: 30px;
@@ -306,34 +321,18 @@ p {
 .container_100.footer_bottom {
     background-color: var(--bg-footer);
     margin-bottom: -20px;
-    border-top: 1px solid white;
 }
 
 .container_80.footer_bottom {
     height: 80px;
-    background-color: var(--bg-footer-bottom);
     margin-bottom: -20px;
     position: relative;
-}
-
-.logo_bottom,
-.login_bottom {
-    background-color: var(--bg-footer-log);
-    height: 40px;
-    width: 60px;
-    border: 1px dashed black;
+    border-top: 1px solid var(--bg-blue-discord);
 }
 
 .logo_bottom {
     position: absolute;
     left: 0;
-    top: 20px;
+    top: 50%;
 }
-
-.login_bottom {
-    position: absolute;
-    right: 0;
-    top: 20px;
-}
-
 /* #endregion footer */
