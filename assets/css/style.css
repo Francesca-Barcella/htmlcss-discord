@@ -278,18 +278,29 @@ p {
 }
 
 .col-9.menu {
-    background-color: var(--bg-footer-menu);
-    border: 1px dashed white;
     display: flex;
     justify-content: space-evenly;
+    color: white;
+    padding-top: 20px;
 }
 
 .col-4.prodotto,
 .col-4.compagnia,
 .col-4.risorse,
 .col-4.norme {
-    border-color: white;
-    width: calc(100% / 4);
+    color: var(--bg-blue-discord);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.col-9.menu a{
+    color: white;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.col-9.menu a:hover{
+    text-decoration: underline;
 }
 
 .container_100.footer_bottom {
