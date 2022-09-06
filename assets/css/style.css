@@ -7,14 +7,12 @@
 }
 
 a {
-    color: white;
     text-decoration-line: none;
-    font-size: 15px;
-    font-weight: bold;
 }
 
-a:hover {
-    color: blue;
+h1 {
+    font-size: 80px;
+    font-weight: bold;
 }
 
 /* #endregion common */
@@ -22,8 +20,6 @@ a:hover {
 /* #region utilities*/
 :root {
     --bg-header: #ADD8E6;
-    --bg-nav: #DAA520;
-    --bg-main: #00008B;
     --bg-mainlite: #EE82EE;
     --bg-column-min: #FFC0CB;
     --bg-column-max: #1E90FF;
@@ -112,6 +108,14 @@ a:hover {
     width: 80%;
 }
 
+.row.menu a{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
 .col-2.login {
     text-align: right;
     padding-right: 10px;
@@ -125,7 +129,7 @@ a:hover {
     border: none;
 }
 
-.button_login:hover{
+.button_login:hover {
     color: var(--bg-blue-discord);
     box-shadow: 5px 5px 80px blue;
 }
@@ -133,16 +137,42 @@ a:hover {
 /* #endregion header */
 
 /* #region main */
-.apertura {
-    background-color: var(--bg-main);
+.banner {
     height: 500px;
     padding-top: 50px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
 }
 
-.presentazione {
-    background-color: var(--bg-mainlite);
+.text_banner {
     height: 400px;
-    border: 1px dashed black;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+#button_download,
+#button_open {
+    border-radius: 30px;
+    border: none;
+    margin: 30px 15px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+#button_download:hover,
+#button_open:hover {
+    color: var(--bg-blue-discord);
+}
+
+#button_download{
+    background-color: white;
+}
+
+#button_open{
+    background-color: black;
+    color: white;
 }
 
 .invito,
