@@ -23,12 +23,9 @@ img {
 
 /* #region utilities*/
 :root {
-    --bg-header: #ADD8E6;
-    --bg-mainlite: #EE82EE;
     --bg-column-min: #FFC0CB;
     --bg-column-max: #1E90FF;
     --bg-grey: #D3D3D3;
-    --bg-green: #228B22;
     --bg-footer: #23272A;
     --bg-footer-social: #F08080;
     --bg-footer-menu: #20B2AA;
@@ -239,12 +236,9 @@ p {
 .facile {
     background-color: var(--bg-grey);
 }
-
 /* #endregion main - invito,facile, fandom */
 
-
 .chiusura {
-    height: 1000px;
     background-color: var(--bg-grey);
     padding-top: 50px;
     padding-bottom: 50px;
@@ -252,10 +246,9 @@ p {
 }
 
 .chiusura_main {
-    height: 900px;
-    background-color: var(--bg-green);
-    border: 1px dashed black;
+    width: 70%;
 }
+
 
 
 
