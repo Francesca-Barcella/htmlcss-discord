@@ -22,8 +22,9 @@ h3 {
 }
 
 p {
-    color: black
-    font-size: 25px;
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
     margin-bottom: 30px;
 }
 
@@ -34,10 +35,10 @@ img {
 
 /* #region utilities*/
 :root {
-    --bg-footer: #23272A;
-    --bg-blue-discord: #255EE9;
-    --bg-blue-discord-light: #7289DA;
-    --bg-grey: #D3D3D3;
+    --ds-footer: #23272A;
+    --ds-blue-discord: #255EE9;
+    --ds-blue-discord-light: #7289DA;
+    --ds-grey: #D3D3D3;
 }
 
 .container_100 {
@@ -103,7 +104,7 @@ img {
 }
 
 .button_login:hover {
-    color: var(--bg-blue-discord);
+    color: var(--ds-blue-discord);
     box-shadow: 5px 5px 80px blue;
 }
 
@@ -121,7 +122,7 @@ img {
 
 #button_download>a:hover,
 #button_open>a:hover {
-    color: var(--bg-blue-discord);
+    color: var(--ds-blue-discord);
 }
 
 #button_download {
@@ -129,10 +130,10 @@ img {
 }
 
 #button_download_mac {
-    background-color: var(--bg-blue-discord-light);
+    background-color: var(--ds-blue-discord-light);
 }
 #button_open {
-    background-color: var(--bg-footer);
+    background-color: var(--ds-footer);
 }
 
 #button_download_mac>a{
@@ -155,19 +156,19 @@ img {
     width: 100px;
     height: 30px;
     border-radius: 30px;
-    background-color: var(--bg-blue-discord);
+    background-color: var(--ds-blue-discord);
     color: white;
     border:none;
 }
 
 #sign_button:hover{
-    background-color: var(--bg-blue-discord-light);
+    background-color: var(--ds-blue-discord-light);
 }
 /* #endregion button */
 
 /* #region header */
 .header {
-    background-color: var(--bg-blue-discord);
+    background-color: var(--ds-blue-discord);
 }
 
 .row.nav {
@@ -238,14 +239,26 @@ img {
 
 .col-4.column_min {
     padding: 30px 15px;
+    align-items: center;
+}
+
+.wave_top{
+    color: var(--ds-grey);
+    margin-bottom: -4px;
+}
+
+.wave_bottom{
+    color: var(--ds-grey);
+    margin-top: -4px;
+    rotate: 180deg;
 }
 
 .facile {
-    background-image: url(../img/wave.svg);
+    background-color: var(--ds-grey);
 }
 
 .chiusura {
-    background-color: var(--bg-grey);
+    background-color: var(--ds-grey);
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -265,11 +278,11 @@ img {
 /* #region footer */
 
 .footer_top {
-    background-color: var(--bg-footer);
+    background-color: var(--ds-footer);
 }
 
 .row.footer_top {
-    background-color: var(--bg-footer);
+    background-color: var(--ds-footer);
     padding-top: 5px;
     padding-bottom: 30px;
 }
@@ -277,7 +290,7 @@ img {
 .col-3.social {
     padding-left: 20px;
     padding-top: 20px;
-    color: var(--bg-blue-discord);
+    color: var(--ds-blue-discord);
 }
 
 .language{
@@ -303,7 +316,7 @@ img {
 .col-4.compagnia,
 .col-4.risorse,
 .col-4.norme {
-    color: var(--bg-blue-discord);
+    color: var(--ds-blue-discord);
     font-weight: bold;
     font-size: 20px;
 }
@@ -319,7 +332,7 @@ img {
 }
 
 .container_100.footer_bottom {
-    background-color: var(--bg-footer);
+    background-color: var(--ds-footer);
     margin-bottom: -20px;
 }
 
@@ -327,7 +340,7 @@ img {
     height: 80px;
     margin-bottom: -20px;
     position: relative;
-    border-top: 1px solid var(--bg-blue-discord);
+    border-top: 1px solid var(--ds-blue-discord);
 }
 
 .logo_bottom {
